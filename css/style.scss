@@ -91,6 +91,7 @@ main {
 main h4 {
     color: $coralpink;
     text-align: center;
+    text-shadow: 0.5px 0.5px 1px black;
 }
 
 main ol, main ul {
@@ -126,4 +127,6 @@ main ol {
 
 .contact a i {
     padding-right: 10px;
+    color: $coralpink;
+    text-shadow: 0.5px 0.5px 1px black;
 }
