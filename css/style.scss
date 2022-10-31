@@ -1,2 +1,19 @@
 @import '_normalize.scss';
 
+$rbeige: #fff5d7;
+$coralpink: #ff5e6c;
+$syellow: #feb300;
+$lpink: #ffaaab;
+
+body {
+    background-image: url('/img/main_bg-1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card_container {
+    background-color: $rbeige;
+    opacity: 0.9;
+    max-width: 960px;
+    margin: 0 auto;
+}
