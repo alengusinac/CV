@@ -95,8 +95,35 @@ main h4 {
 
 main ol, main ul {
     margin: 0;
+    padding: 0;
 }
 
 main ol {
     list-style: square;
+}
+
+.hobbies ul {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 70px;
+}
+
+.hobbies ul li {
+    height: 33.3%;
+}
+
+.contact {
+    text-align: center;
+}
+
+.contact a {
+    display: block;
+    color: black;
+    text-shadow: 0.5px 0.5px 1px $coralpink;
+    text-decoration: none;
+}
+
+.contact a i {
+    padding-right: 10px;
 }
