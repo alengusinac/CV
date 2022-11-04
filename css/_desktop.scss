@@ -6,6 +6,10 @@
         border-radius: 10px;
     }
 
+    header {
+        padding-top: 30px;
+    }
+
     nav {
         height: 50px;
     }
@@ -26,11 +30,15 @@
         flex-wrap: wrap;
     }
 
-    .about, .hobbies, .contact {
+    .left_main {
+        width: 50%;
+    }
+
+    .about, .contact {
         width: 100%;
     }
 
-    .experience, .education {
+    .experience {
         width: 50%;
     }
 
