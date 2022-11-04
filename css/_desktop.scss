@@ -7,7 +7,14 @@
     }
 
     header {
-        padding-top: 30px;
+        padding: 30px;
+        flex-direction: row;
+    }
+
+    .left_header {
+        width: 50%;
+        display: flex;
+        justify-content: center;
     }
 
     nav {
