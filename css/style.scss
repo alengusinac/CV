@@ -44,6 +44,7 @@ header h1 {
 header h3 {
     margin-top: 0;
     color: $coralpink;
+    text-shadow: 0.5px 0.5px 1px black;
 }
 
 nav {
@@ -86,6 +87,7 @@ nav ul li a:hover {
 
 main {
     padding: 0 40px;
+    width: 100%;
 }
 
 main h4 {
@@ -129,4 +131,12 @@ main ol {
     padding-right: 10px;
     color: $coralpink;
     text-shadow: 0.5px 0.5px 1px black;
+}
+
+footer {
+    height: 50px;
+    width: 100%;
+    border-top: 3px solid $syellow;
+    margin-top: 10px;
+    padding-left: 20px;
 }
