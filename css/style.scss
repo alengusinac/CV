@@ -5,9 +5,15 @@ $coralpink: #ff5e6c;
 $syellow: #feb300;
 $lpink: #ffaaab;
 
+@keyframes target-fade {
+    0% { background-color: $coralpink; }
+    100% { background-color: transparent; }
+}
+
 * {
     box-sizing: border-box;
     font-family: 'Courier New', Courier, monospace;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -107,6 +113,10 @@ main ol, main ul {
 
 main ol {
     list-style: square;
+}
+
+.about:target, .experience:target, .education:target, .hobbies:target, .contact:target {
+    animation: target-fade 1s 1;
 }
 
 .hobbies ul {
