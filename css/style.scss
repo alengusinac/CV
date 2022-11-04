@@ -110,6 +110,7 @@ main ol {
     flex-direction: column;
     flex-wrap: wrap;
     height: 70px;
+    padding-left: 20%;
 }
 
 .hobbies ul li {
@@ -140,3 +141,6 @@ footer {
     margin-top: 10px;
     padding-left: 20px;
 }
+
+@import '_tablet.scss';
+@import '_desktop.scss';
