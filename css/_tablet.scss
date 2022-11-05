@@ -8,4 +8,14 @@
         padding-left: 10%;
     }
 
+    .photo_grid {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-gap: 10px;
+    }
+
+    .photo_grid h4, .photo_grid p {
+        grid-row: ;
+    }
+
 }
