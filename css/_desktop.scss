@@ -49,4 +49,26 @@
         width: 50%;
     }
 
+    .photo_grid {
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 30px 40px repeat(6, 15rem);
+    }
+
+    .photo_grid img:nth-child(13) {
+        grid-column: 3 / span 1;
+        grid-row: 3 / span 1;
+    }
+    .photo_grid img:nth-child(14) {
+        grid-column: 3 / span 1;
+        grid-row: 4 / span 1;
+    }
+    .photo_grid img:nth-child(15) {
+        grid-column: 3 / span 1;
+        grid-row: 5 / span 2;
+    }
+    .photo_grid img:nth-child(16) {
+        grid-column: 3 / span 1;
+        grid-row: 7 / span 2;
+    }
+
 }
