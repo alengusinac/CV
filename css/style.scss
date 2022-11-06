@@ -5,6 +5,11 @@ $coralpink: #ff5e6c;
 $syellow: #feb300;
 $lpink: #ffaaab;
 
+@-webkit-keyframes target-fade {
+    0% { background-color: $coralpink; }
+    100% { background-color: transparent; }
+}
+
 @keyframes target-fade {
     0% { background-color: $coralpink; }
     100% { background-color: transparent; }
@@ -106,6 +111,7 @@ main {
 }
 
 .about:target, .experience:target, .education:target, .hobbies:target, .contact:target {
+    -webkit-animation: target-fade 1s 1;
     animation: target-fade 1s 1;
 }
 
