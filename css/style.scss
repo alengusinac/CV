@@ -156,6 +156,9 @@ footer {
     border-top: 3px solid $syellow;
     margin-top: 10px;
     padding-left: 20px;
+    p {
+        font-family: 'Teko', sans-serif;
+    }
 }
 
 @import '_tablet.scss';
