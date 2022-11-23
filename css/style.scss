@@ -30,7 +30,7 @@ body {
 .card_container {
     background-color: $rbeige;
     opacity: 0.9;
-    max-width: 960px;
+    max-width: 860px;
     margin: 0 auto;
 }
 
@@ -162,9 +162,7 @@ footer {
     border-top: 3px solid $syellow;
     margin-top: 10px;
     padding-left: 20px;
-    p {
-        font-family: 'Teko', sans-serif;
-    }
+    
 }
 
 @import '_tablet.scss';
